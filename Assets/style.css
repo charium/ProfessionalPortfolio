@@ -23,15 +23,7 @@
         text-align: center;
      }
 
-     h2 {
-        background-color: rgb(249, 233, 245);
-        border-radius: 6px;
-        padding: 20px;
-        align-self: flex-start;
-        text-align: center;
-     }
-
-    nav {
+     nav {
         display: flex;
         justify-content: center;
     }
@@ -42,12 +34,6 @@
         padding: 0;
     }
     
-    section img {
-        border-radius: 6px;
-        border-style:double;
-        float: left;
-        margin-right: 20px;
-    }
     nav ul li {
         display: inline;
         margin-right: 20px;
@@ -55,6 +41,25 @@
 
     nav ul li a {
        color: rgb(255, 237, 245);
+    }
+
+    nav ul li a:hover {
+        color: rgb(125, 141, 235);
+    }
+
+     h2 {
+        background-color: rgb(249, 233, 245);
+        border-radius: 6px;
+        padding: 20px;
+        align-self: flex-start;
+        text-align: center;
+     }
+
+    section img {
+        border-radius: 6px;
+        border-style:double;
+        float: left;
+        margin-right: 20px;
     }
 
     section {
@@ -74,10 +79,6 @@
         display: block;
     }
 
-    section p {
-        display: block;
-    }
-
     .container {
         background-color: rgb(217, 176, 228);
         width: 0 auto;
@@ -91,9 +92,8 @@
         border-style:dotted
     }
 
-    footer {
-        text-align: center;
-        margin-top: 50px;
+    section p {
+        display: block;
     }
 
     a img {
@@ -104,10 +104,6 @@
         border-radius: 6px;
     }
 
-    a img:hover {
-        border-color: rgb(125, 141, 235);
-    }
-
     #firstapplication a img{
         max-width: 600px;
         max-height: 500px;
@@ -115,15 +111,23 @@
         border-radius: 6px;
     }
 
+    #firstapplication a img:hover{
+        border-color: rgb(125, 141, 235);
+    }
+
+    a img:hover {
+        border-color: rgb(125, 141, 235);
+    }
+
     div form {
         background-color: rgb(247, 217, 237);
         border: 1px dashed rgb(105, 6, 82);
         padding: 10px;
-        margin: 100px
+        margin: 10px
     }
 
     .labelbox {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
       }
       
       .labelbox label {
@@ -136,8 +140,17 @@
         padding: 10px;
         border: 1px solid #ccc;
         border-radius: 5px;
+        }
+
+      button {
+        margin: 20px;
       }
       
+      footer {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
     @media screen and (min-width: 800px) {
         section {
             display: flex;
