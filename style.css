@@ -6,7 +6,7 @@ body {
 }
 
 .hero {
-  background-image: url(./Assets/background-image.jpg);
+  background-image: url(./assets/background-image.jpg);
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 30px 50px;
