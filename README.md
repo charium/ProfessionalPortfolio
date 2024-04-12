@@ -13,7 +13,7 @@ To use this page, simply click and read through the links and information.
 To visit the page, go to web address: https://charium.github.io/ProfessionalPortfolio/. 
 
 The following page should look like: 
-![Initial Web Page Deployement Cover Image.](./Assets/WebSS2.png)
+![Initial Web Page Deployement Cover Image.](./assets/WebSS2.png)
 
 ## Credits
 
